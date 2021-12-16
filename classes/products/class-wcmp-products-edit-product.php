@@ -138,7 +138,7 @@ class WCMp_Products_Edit_Product {
             'general'        => array(
                 'label'    => __( 'General', 'dc-woocommerce-multi-vendor' ),
                 'target'   => 'general_product_data',
-                'class'    => array( 'hide_if_grouped', 'show_if_simple' ),
+                'class'    => array( 'hide_if_grouped', 'show_if_simple','show_if_bundle' ),
                 'priority' => 10,
             ),
             'inventory'      => array(
